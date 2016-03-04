@@ -6,7 +6,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    ui->webView->load(QUrl("https://wangxian0718.github.io/index.html"));
+    //ui->webView->load(QUrl("https://wangxian0718.github.io/webkit/"));
+    ui->webView->load(QUrl("file:///home/wangxian/Code/qt5.5/QWebFrame/gaodemap/baidu_api.html"));
 }
 
 MainWindow::~MainWindow()
